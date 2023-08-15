@@ -2,13 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import App from './pages/App.tsx'
-import Examples from './pages/Examples.tsx'
+import App from './pages/App'
+import Examples from './pages/Examples'
 
 import './main.css'
-import Declaratividade from './examples/Declaratividade.tsx'
-import Raiz from './examples/Componente.tsx'
-import Estados from './examples/Estados.tsx'
+import Declaratividade from './examples/Declaratividade'
+import Raiz from './examples/Componente'
+import Estados from './examples/Estados'
 
 const router = createBrowserRouter([
   {
