@@ -9,6 +9,10 @@ import './main.css'
 import Declaratividade from './examples/Declaratividade'
 import Raiz from './examples/Componente'
 import Estados from './examples/Estados'
+import Condicionais from './examples/Condicionais'
+import Efeitos from './examples/Efeitos'
+import Hooks from './examples/Hooks'
+import JogoDaVelha from './pages/Velha'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +20,11 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: '/examples',
+    path: 'velha',
+    element: <JogoDaVelha />,
+  },
+  {
+    path: '/exemplos',
     element: <Examples />,
     children: [
       {
@@ -30,6 +38,18 @@ const router = createBrowserRouter([
       {
         path: 'estados',
         element: <Estados />,
+      },
+      {
+        path: 'condicionais',
+        element: <Condicionais />,
+      },
+      {
+        path: 'efeitos',
+        element: <Efeitos />,
+      },
+      {
+        path: 'hooks',
+        element: <Hooks />,
       },
     ],
   },

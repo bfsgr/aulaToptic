@@ -9,13 +9,22 @@ function Examples() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/examples/declaratividade">Declaratividade</Link>
+            <Link to="/exemplos/declaratividade">Declaratividade</Link>
           </li>
           <li>
-            <Link to="/examples/componentes">Componentes</Link>
+            <Link to="/exemplos/componentes">Componentes</Link>
           </li>
           <li>
-            <Link to="/examples/estados">Estados</Link>
+            <Link to="/exemplos/estados">Estados</Link>
+          </li>
+          <li>
+            <Link to="/exemplos/condicionais">Condicionais</Link>
+          </li>
+          <li>
+            <Link to="/exemplos/efeitos">Efeitos</Link>
+          </li>
+          <li>
+            <Link to="/exemplos/hooks">Hooks</Link>
           </li>
         </ul>
       </nav>
