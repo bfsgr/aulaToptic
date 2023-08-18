@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import Desafio1 from '../components/desafio1'
+import Desafio2 from '../components/desafio2'
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
           </p>
         </details>
 
-        <p>Seu componente deve aparecer aqui</p>
+        <Desafio1 />
       </section>
 
       <section
@@ -41,7 +43,7 @@ function App() {
           </p>
         </details>
 
-        <p>Seu componente deve aparecer aqui</p>
+        <Desafio2></Desafio2>
       </section>
       <Link to="/velha">Desafio final</Link>
     </main>
